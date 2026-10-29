@@ -1,0 +1,16 @@
+{
+  "n_secoes": 499205,
+  "mediana_delta_abstencoes": -6.0,
+  "p5_delta_abstencoes": -20.0,
+  "p95_delta_abstencoes": 8.0,
+  "pct_secoes_queda_abstencoes": 76.57315131058382,
+  "mediana_delta_nulos": -2.0,
+  "p5_delta_nulos": -8.0,
+  "p95_delta_nulos": 4.0,
+  "pct_secoes_queda_nulos": 64.00276439538867,
+  "mediana_delta_brancos": -1.0,
+  "pct_secoes_queda_brancos": 65.71208221071504,
+  "soma_delta_abstencoes": -2960241,
+  "soma_delta_nulos": -945698,
+  "soma_delta_brancos": -870302
+}
