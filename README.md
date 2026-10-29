@@ -86,7 +86,8 @@ python scripts/01_download.py   # baixa os ZIPs oficiais
 python scripts/02_etl.py        # data/processed/secao_turno.parquet
 python scripts/03_parear.py     # data/processed/painel_t1_t2.parquet
 python scripts/04_anomalias.py  # reports/flags_*.csv
-python scripts/05_relatorio.py  # reports/resumo.md
+python scripts/05_relatorio.py  # reports/resumo.md + municipios_variacao.csv
+python scripts/06_dashboard.py  # reports/dashboard.md + figures/
 ```
 
 `data/raw/` e `data/processed/` não entram no git.
@@ -101,7 +102,10 @@ python scripts/05_relatorio.py  # reports/resumo.md
 ## Saídas
 
 - [`reports/resumo.md`](reports/resumo.md) — relatório detalhado para leitura
+- [`reports/dashboard.md`](reports/dashboard.md) — versão visual (gráficos + tabelas)
+- `reports/figures/` — PNGs do dashboard
 - `reports/flags_*.csv` — seções de cada teste
+- `reports/municipios_variacao.csv` — variação T1→T2 por município
 - `reports/clusters_municipio.csv` / `clusters_zona.csv` — concentração geográfica
 - `reports/mudanca_aptos.csv` — seções com mudança grande de eleitores aptos
 - `data/processed/secao_turno.parquet` — uma linha por seção × turno

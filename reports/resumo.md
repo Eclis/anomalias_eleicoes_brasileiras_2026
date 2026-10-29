@@ -56,6 +56,44 @@ Crescimento simultâneo é frequente no 2º turno. Os votos dos eliminados preci
 
 - **Sydney/ZZ, zona 1, seção 1951**. Lula: **201** para **302** (+101). Flávio: **116** para **140** (+24). Na mesma seção havia **40 votos** em candidatos que não foram ao 2º turno e o comparecimento subiu **87**. Ganho conjunto: **125**. Reservatório: **127**.
 
+## O caso que circula: Silva Jardim e a analogia da Mega-Sena
+
+Circula o argumento de que, em cidades como **Silva Jardim/RJ**, Flávio quase não cresceu e Lula disparou — e que isso seria “mais fácil de acontecer na Mega-Sena do que nas urnas”. São três perguntas diferentes. Misturá-las gera a impressão de milagre estatístico.
+
+### 1. Os votos fecham?
+
+Em **Silva Jardim/RJ** (61 seções pareadas), Flávio passou de **8.932** para **8.933** (**+1**). Lula passou de **4.450** para **5.434** (**+984**). O reservatório municipal (eliminados + variação de abstenção + nulo + branco) soma **982**. A abstenção **subiu** (3.765 → 3.872).
+
+Nas urnas o estoque de Flávio **não congelou**: **36** seções somaram **+161**; **22** seções perderam **160**; **3** ficaram iguais. O +1 municipal é o **saldo**. O salto de Lula cabe no que a cidade já tinha no 1º turno (897 votos em candidatos eliminados e recuo de branco/nulo).
+
+Somar as cidades “assim” não abre um buraco na conta nacional:
+
+| Recorte | Municípios | Δ Lula | Reservatório | Peso na vantagem nacional |
+| --- | ---: | ---: | ---: | ---: |
+| \|Δ Flávio\| ≤ 1 (BR + ZZ) | 55 (35 BR + 20 ZZ) | +16.428 | 16.420 | 0,37% |
+| \|Δ Flávio\| ≤ 5 (só BR) | 110 | +45.442 | 45.430 | 1,03% |
+| Flávio caiu (município) | 950 | +486.960 | 352.604 (Δ conjunto +353.036) | perda de Flávio = 3,02% da margem no teto |
+
+No recorte \|Δ\| ≤ 1, o gap máximo entre crescimento conjunto e reservatório é de **5** votos. Mesmo atribuindo **toda** a perda municipal de Flávio (133.924) a Lula, isso cobriria **1,3%** dos 10,4 milhões e **3,0%** da vantagem nacional. Flávio **cresceu** em **4.747** dos **5.715** municípios (83%).
+
+### 2. É “mais fácil ganhar na Mega-Sena”?
+
+Não. A analogia troca o experimento.
+
+- **Mega-Sena:** 6 dezenas entre 60, sorteio novo, cada volante independente. Chance de um volante: cerca de 1 em 50 milhões.
+- **2º turno:** não é sorteio novo. Quem votou 22 no 1º tende a votar 22 de novo. Em Silva Jardim o estoque de Flávio já era **62,6%** dos válidos. Esperar que o inteiro municipal fique **perto** do 1º turno não é milagre; é o desenho da polarização.
+- **O evento errado:** depois de olhar os **5.571** municípios brasileiros, escolhe-se a cidade em que o inteiro quase repetiu e calcula-se P(exatamente +1) como se fosse um único volante pré-escolhido. Qualquer total específico (8.933, 8.940, 9.100) seria “raro” nesse modelo. Isso é tiro no celeiro, não probabilidade da eleição.
+- **A frequência certa, no próprio TSE:** **35** municípios BR com \|Δ Flávio\| ≤ 1 — cerca de **1 em 159**, não 1 em 50 milhões. Entre cidades com estoque de Flávio na faixa 5–15 mil, o \|Δ\| ≤ 1 é incomum (**4** em **1.108**); entre redutos (≥55% no 1º, mesma faixa de tamanho), a mediana de crescimento dele é **+494**, e Silva Jardim está na cauda. Incomum ≠ loteria. Incomum com a conta fechando ≠ voto inventado.
+- **Por que o +1 aparece sem urna “congelada”:** nas 61 seções o Δ de Flávio tem desvio de cerca de **7** votos por urna. O erro padrão do saldo municipal fica na ordem de **54** votos. Cair em +1 é compatível com ruído de urna a urna se compensando. O inteiro 8.932 / 8.933 é o que o olho gruda; em milhares é 0,01%.
+
+Este relatório **não** publica um p-valor “contra a Mega-Sena”: isso replica o modelo errado. Publica a frequência empírica e a conta do reservatório.
+
+### 3. O crescimento de Lula naquela cidade é o mistério?
+
+Não, se o reservatório for o denominador. Os **897** votos em eliminados e a queda de branco/nulo explicam o salto de Lula. Tratar “Lula dispara **e** Flávio fica parado” como dois milagres independentes ignora que, no 2º turno, são vasos comunicantes: o que não foi para um lado, ou ficou em branco/nulo/abstenção, ou foi para o outro. Nacionalmente Lula levou **73,6%** desse bolo; Flávio, **26,4%**. Silva Jardim é uma cidade em que a fatia local foi quase toda para Lula, com o estoque de Flávio estável. Isso é destinação do reservatório, não prova de que os votos do 1º turno foram adulterados.
+
+Para comparação: Lula caiu em **88** municípios. O recorte não espelha o de Flávio porque Lula absorveu a maior parte do reservatório nacional — esperado se o 2º turno polariza para um lado, não evidência de apagão do outro.
+
 ## Recortes que chamam atenção — e o peso no resultado
 
 A vantagem nacional de Lula foi de **4.430.191 votos**. Os grupos abaixo são os que mais destoam visualmente. Nenhum deles, isolado, se aproxima dessa margem.
@@ -112,9 +150,29 @@ A abstenção recuou em **76,6%** das seções (mediana de **-6** eleitores por 
 
 Os estados com mais seções destacadas nos testes foram: PB (752), AL (647), BA (531), PE (505), SP (463), CE (363), RJ (263), MG (249), PA (185), MA (150). Concentração estadual, por si só, não indica irregularidade: unidades da federação e capitais com mais seções tendem a aparecer mais em qualquer lista de extremos.
 
+## O que esta apuração vê — e o que não vê
+
+A cadeia eleitoral, em resumo, é: cadastro → urna → boletim → transmissão → totalização → CSV público. Este projeto lê o **último** caixa: os arquivos oficiais de votação e detalhe por seção. Uma irregularidade só aparece aqui se **quebrar as contas publicadas** ou gerar um extremo nas totais. Fechar o CSV prova coerência da totalização publicada, **não** integridade da urna.
+
+**O que estes arquivos testam (e o resultado):**
+
+- Voto sem origem na seção (ganho além do reservatório da urna): **0** casos.
+- Conta `comparecimento + abstenção = aptos` / votos ≤ aptos: sem quebra; **2** comparecimentos 100% em urna grande.
+- Queda brusca de finalista com comparecimento estável ou maior: **17** seções (0,042% da margem).
+- 100% dos válidos em urna grande (aptos ≥ 150): **67** seções (0,31% da margem).
+
+**O que eles não testam:**
+
+- Troca de voto de um finalista para o outro que **preserve o total** da urna (indistinguível, nestes arquivos, de eleitor que mudou de lado; Silva Jardim cai neste limite).
+- Boletim de Urna diferente do CSV (este repositório **não** lê BU/QR).
+- Software da urna se o boletim impresso sai igual ao resultado publicado.
+- Identidade/biometria e cadastro “fantasma” estável nos dois turnos.
+
+Se a dúvida continuar, o próximo passo empírico é conferir o **Boletim de Urna das seções já listadas** (100% em urna grande e quedas bruscas), não somar municípios em que Flávio não cresceu.
+
 ## Síntese
 
-Os dados de seção **não sustentam** a tese de interferência sistêmica do 1º para o 2º turno. O que aparece de forma consistente é redistribuição dos votos dos candidatos eliminados, aumento de comparecimento e recuo de branco e nulo, com algumas urnas homogêneas em regiões específicas e um conjunto pequeno de seções em que a conferência manual do Boletim de Urna ainda faz sentido — em especial as 100% em urna grande e as 17 quedas bruscas.
+Os dados de seção **não sustentam** a tese de interferência sistêmica do 1º para o 2º turno. O que aparece de forma consistente é redistribuição dos votos dos candidatos eliminados, aumento de comparecimento e recuo de branco e nulo, com algumas urnas homogêneas em regiões específicas e um conjunto pequeno de seções em que a conferência manual do Boletim de Urna ainda faz sentido — em especial as 100% em urna grande e as 17 quedas bruscas. Cidades em que Flávio quase não mexeu, como Silva Jardim, **fecham a conta** no reservatório local; o argumento da Mega-Sena troca o experimento e ignora a frequência empírica no próprio TSE.
 
 ## Interpretações que os números não sustentam
 
@@ -130,4 +188,10 @@ Os dados de seção **não sustentam** a tese de interferência sistêmica do 1�
 
 **Um número grande, isolado, já seria evidência.** **82 mil seções** com recuo de Flávio são **16,5%** das **499.205** seções pareadas. **106 seções 100%** concentram **118 votos** de Flávio zerados no 1º turno. Sem denominador, o recorte infla. Com denominador, cabe no tamanho da eleição.
 
-Tabelas de apoio: `reports/flags_*.csv`, `reports/clusters_municipio.csv` e `reports/mudanca_aptos.csv`.
+**Em Silva Jardim Flávio fez +1 e Lula disparou; somando as cidades assim, a eleição não fecha.** Fecha. No recorte \|Δ Flávio\| ≤ 1, Lula ganhou **16.428** e o reservatório cobre (**16.420**; peso **0,16%** do crescimento de Lula). Onde Flávio caiu no município, o conjunto dos dois ainda iguala o reservatório (+353.036 vs 352.604). Perda local de Flávio, no teto, é **3,0%** da margem nacional.
+
+**Mais fácil ganhar na Mega-Sena do que Flávio fazer +1.** Modelo errado: o 2º turno não é sorteio novo, e escolher a cidade depois de olhar o mapa infla a raridade. Nos dados do TSE, **35** municípios brasileiros tiveram \|Δ Flávio\| ≤ 1 — cerca de 1 em 159. Incomum em redutos do mesmo tamanho, sim; loteria, não.
+
+**Se o CSV fecha, não houve fraude.** Fechar o CSV prova coerência da totalização publicada, não integridade da urna. A recíproca também vale: cidade com Flávio estável não prova fraude. Troca A→B que preserve o total e urna coerente com o boletim não deixam rastro nestes arquivos.
+
+Versão visual: [`reports/dashboard.md`](dashboard.md). Tabelas de apoio: `reports/flags_*.csv`, `reports/clusters_municipio.csv`, `reports/mudanca_aptos.csv` e `reports/municipios_variacao.csv`.
